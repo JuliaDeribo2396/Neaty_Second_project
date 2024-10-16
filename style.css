@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+body {
+    margin: 0;
+    background-color: #206aaa;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+  }
+  
+.left {
+    width: 30%;
+    float: left;
+  }
+  
+.right {
+    width: 70%;
+    margin-left: 30%;
+    background-color: white;
+  }
+
+  .logo img {
+    padding-top: 30px;
+    padding-left: 40%;
+    text-align: center;
+  }
+
+  .logo p {
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin: auto 0;
+  }
+
+li {
+  margin: 50px 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:#b5b53b;
+}
+
+  ul {
+    list-style-type: none;
+    justify-items: left;
+    font-size: 25px;
+    color: white;
+  }
+
+  .pic1 {
+    width: 100%;
+  }
+
+  h1 {
+    color: #206aaa;
+    font-size: 50px;
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+
+  .welcome p {
+    text-align: left;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 30px;
+  }
+
+  .about{
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .about img {
+    float: left;
+    height: 450px;
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+  .about h2 {
+    color: #206aaa;
+    font-size: 40px;
+    margin-left: 450px;
+  }
+
+  .about p {
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left: 450px;
+    justify-content: left;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #206aaa;
+    color: white;
+    height: 70px;
+    width: 25%;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+  }
+
+.gallery1, .gallery2, .gallery3, .footer {
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+.gallery1 h2 {
+  color: #206aaa;
+  font-size: 40px;
+}
+
+.gallery1 img {
+  max-width: calc(100% / 5 - 5px);
+  margin: auto 0;
+}
+
+.gallery2 h2, .gallery3 h2 {
+  color: #206aaa;
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.gallery2 img {
+  max-width: calc(100% / 3 - 5px);
+  margin: auto 0;
+}
+
+.gallery3 img {
+  max-width: calc(100% / 4 - 5px);
+  margin: auto 0;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
